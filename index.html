@@ -14,10 +14,10 @@
             line-height: 1.8;
         }
         .ai-bg {
-             background-image: linear-gradient(rgba(30, 58, 138, 0.95), rgba(15, 23, 42, 0.98)), url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1965&q=80');
-             background-size: cover;
-             background-position: center;
-             background-attachment: fixed;
+            background-image: linear-gradient(rgba(30, 58, 138, 0.95), rgba(15, 23, 42, 0.98)), url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1965&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
         .eco-bg {
             background-image: linear-gradient(rgba(20, 83, 45, 0.9), rgba(2, 44, 34, 0.95)), url('https://images.unsplash.com/photo-1581094794329-cd1096a7a2e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
@@ -47,42 +47,31 @@
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
 
-    <!-- Hero Section -->
-    <section class="relative pt-20 pb-24 min-h-[85vh] bg-gradient-to-b from-slate-50 via-white to-slate-100 flex items-center">
+    <!-- Hero -->
+    <section class="relative pt-24 pb-24 min-h-[85vh] bg-gradient-to-b from-slate-50 via-white to-slate-100 flex items-center">
         <div class="pointer-events-none absolute inset-0">
             <div class="absolute -top-32 -right-16 w-80 h-80 bg-blue-100/40 rounded-full blur-3xl"></div>
             <div class="absolute -bottom-40 -left-10 w-72 h-72 bg-emerald-100/40 rounded-full blur-3xl"></div>
-            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(148,163,184,0.15),_transparent_55%),_linear-gradient(to_bottom,_rgba(148,163,184,0.05),_transparent_40%)]"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(148,163,184,0.18),_transparent_55%),_linear-gradient(to_bottom,_rgba(148,163,184,0.08),_transparent_40%)]"></div>
         </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <!-- Left: Copy -->
+                <!-- Left: Text -->
                 <div class="space-y-8 animate-fade-in-up">
-                    <div class="flex items-center gap-4 mb-4">
-                        <!-- CDH ロゴ -->
-                        <div class="w-20 h-20 rounded-full bg-white shadow-xl flex items-center justify-center overflow-hidden border border-slate-200">
-                            <img src="cdh-logo.png" alt="Capital Design Holdings Logo" class="w-full h-full object-contain">
-                        </div>
-                        <div>
-                            <p class="text-xs font-semibold tracking-[0.22em] text-amber-600 uppercase mb-1">
-                                Capital Design Holdings
-                            </p>
-                            <p class="text-sm text-slate-500">
-                                Technology × Real Business × Sustainability
-                            </p>
-                        </div>
-                    </div>
-
                     <div>
-                        <h1 class="text-4xl md:text-5xl xl:text-6xl font-black text-slate-900 leading-tight mb-4">
+                        <p class="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.22em] text-amber-600 uppercase mb-4">
+                            <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                            Capital Design Holdings
+                        </p>
+                        <h1 class="text-4xl md:text-5xl xl:text-6xl font-black text-slate-900 leading-tight mb-6">
                             理想のその先へ。<br>
                             <span class="text-3xl md:text-4xl xl:text-5xl font-bold text-slate-600 mt-2 block">
                                 資本と未来をデザインする。
                             </span>
                         </h1>
                         <p class="text-base md:text-lg text-slate-600 leading-relaxed max-w-xl">
-                            私たちはAI開発・建設・不動産・金融メディアを横断する総合ホールディングスカンパニーです。<br>
+                            私たちは AI開発・建設・不動産・金融メディアを横断する総合ホールディングスカンパニーです。<br>
                             「Technology × Real Business」のシナジーにより、持続可能な未来の創造と、クライアントの皆様の理想を現実に変えるためのトータルソリューションを提供します。
                         </p>
                     </div>
@@ -95,20 +84,21 @@
                             </svg>
                         </a>
                         <a href="#contact" class="px-8 py-4 bg-white/80 backdrop-blur border border-slate-200 text-slate-800 rounded-full font-semibold text-sm hover:bg-white hover:border-slate-300 transition-all flex items-center justify-center gap-2">
-                            相談してみる
+                            お問い合わせ
+                            <span class="text-xs text-slate-500 ml-1">Contact</span>
                         </a>
                     </div>
 
                     <div class="pt-4 border-t border-slate-200/60">
-                         <p class="text-xs font-bold text-slate-500 mb-3 uppercase tracking-wider">Core Business Fields</p>
-                         <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs font-medium text-slate-600">
+                        <p class="text-xs font-bold text-slate-500 mb-3 uppercase tracking-wider">Core Business Fields</p>
+                        <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs font-medium text-slate-600">
                             <div class="flex items-center gap-2">
                                 <span class="w-2 h-2 rounded-full bg-blue-500"></span>
                                 <span>AI開発・DX支援</span>
                             </div>
                             <div class="flex items-center gap-2">
                                 <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                                <span>建設・ECO DANSHARI LAB</span>
+                                <span>建設・ECO DANSHARI</span>
                             </div>
                             <div class="flex items-center gap-2">
                                 <span class="w-2 h-2 rounded-full bg-amber-500"></span>
@@ -122,7 +112,7 @@
                     </div>
                 </div>
 
-                <!-- Right: Business overview card -->
+                <!-- Right: CDH ロゴカード -->
                 <div class="lg:pl-6 animate-fade-in-up" style="animation-delay: 0.2s;">
                     <div class="max-w-md mx-auto transform hover:-translate-y-2 transition-transform duration-500">
                         <div class="rounded-3xl bg-white/90 backdrop-blur-xl shadow-2xl border border-slate-100 overflow-hidden relative">
@@ -134,13 +124,14 @@
                                         Overview
                                     </p>
                                     <p class="text-lg font-bold text-slate-900">
-                                        Our Portfolio
+                                        Capital Design Holdings
                                     </p>
                                 </div>
-                                <div class="w-12 h-12 rounded-2xl bg-slate-900 text-white flex items-center justify-center shadow-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                                    </svg>
+                                <div class="w-16 h-16 rounded-full bg-white shadow-lg flex items-center justify-center overflow-hidden">
+                                    <!-- ★ ここで CDH ロゴ画像を使用 -->
+                                    <img src="ED15B233-056F-4DC6-ADF1-80E5C363E520.PNG"
+                                         alt="Capital Design Holdings ロゴ"
+                                         class="w-full h-full object-contain">
                                 </div>
                             </div>
 
@@ -164,7 +155,7 @@
                                         <div>
                                             <h4 class="font-bold text-slate-900 text-sm">Sustainable Tech</h4>
                                             <p class="text-xs text-slate-500 mt-1 leading-relaxed">
-                                                「ECO DANSHARI LAB」を通じたリフォーム・再生事業。環境負荷を低減し、快適な住環境を提供。
+                                                「断捨離ラボ」を通じたリフォーム・再生事業。環境負荷を低減し、快適な住環境を提供。
                                             </p>
                                         </div>
                                     </div>
@@ -183,33 +174,32 @@
 
                                 <div class="pt-4 border-t border-dashed border-slate-200">
                                     <p class="text-xs text-center text-slate-400">
-                                        下へスクロールして、各事業の詳細をご覧ください。
+                                        Scroll down to explore more
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div><!-- /Right -->
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About -->
     <section id="about" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
                 <div>
-                     <h2 class="text-sm font-bold text-amber-600 tracking-widest uppercase mb-3">Who We Are</h2>
-                     <h3 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6 leading-tight">
-                         社会に新たな価値と<br>
-                         「余白」をデザインする。
-                     </h3>
-                     <p class="text-slate-600 leading-relaxed text-lg mb-6">
-                         Capital Design Holdingsは、「理想の先へ」をテーマに掲げる総合ホールディングスカンパニーです。単なる利益追求だけでなく、テクノロジーによる効率化（AI事業）と、持続可能な暮らしの提案（ECO事業）、そして経済的な豊かさ（金融事業）の三位一体を通じて、人々の生活に「時間的・精神的・経済的な余白」を創出することを目指しています。
-                     </p>
-                     <p class="text-slate-600 leading-relaxed text-lg">
-                         AI開発から建設、金融、不動産まで。一見異なる事業領域を「Design」という思想で繋ぎ、クライアント様と共に成長し続けるパートナーであり続けます。
-                     </p>
+                    <h2 class="text-sm font-bold text-amber-600 tracking-widest uppercase mb-3">Who We Are</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6 leading-tight">
+                        社会に新たな価値と<br>「余白」をデザインする。
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed text-lg mb-6">
+                        Capital Design Holdingsは、「理想の先へ」をテーマに掲げる総合ホールディングスカンパニーです。テクノロジーによる効率化（AI事業）と持続可能な暮らしの提案（ECO事業）、そして経済的な豊かさ（金融事業）の三位一体を通じて、人々の生活に「時間的・精神的・経済的な余白」を創出することを目指しています。
+                    </p>
+                    <p class="text-slate-600 leading-relaxed text-lg">
+                        AI開発から建設、金融、不動産まで。一見異なる事業領域を「Design」という思想で繋ぎ、クライアント様と共に成長し続けるパートナーであり続けます。
+                    </p>
                 </div>
                 <div class="grid grid-cols-1 gap-6">
                     <div class="bg-slate-50 p-6 rounded-xl border-l-4 border-blue-500">
@@ -259,7 +249,7 @@
         </div>
     </section>
 
-    <!-- Services Grid -->
+    <!-- Services -->
     <section id="services" class="py-24 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -268,7 +258,7 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Service 1: AI Development -->
+                <!-- AI -->
                 <div class="service-card bg-white p-8 rounded-xl shadow-sm border-t-4 border-blue-600 flex flex-col relative overflow-hidden group h-full">
                     <div class="absolute top-0 right-0 w-24 h-24 bg-blue-50 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-110"></div>
                     <div class="relative z-10 mb-6 h-16 flex items-center">
@@ -278,17 +268,19 @@
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">AI開発事業</h3>
                     <p class="text-slate-600 text-sm leading-relaxed flex-grow mb-4">
-                        ChatGPTなどの生成AIを活用した業務効率化ツールの開発から、社内DXのコンサルティングまで。PoC（概念実証）の作成から本開発、運用保守までワンストップで支援し、貴社の「AI経営」を実現します。
+                        生成AIを活用した業務効率化ツールの開発から、社内DXコンサルティングまで。PoC作成から本開発・運用保守までワンストップで支援し、「AI経営」を実現します。
                     </p>
                 </div>
 
-                <!-- Service 2: ECO DANSHARI LAB -->
+                <!-- ECO -->
                 <div class="service-card bg-white p-8 rounded-xl shadow-sm border-t-4 border-green-600 flex flex-col relative overflow-hidden group h-full">
                     <div class="absolute top-0 right-0 w-24 h-24 bg-green-50 rounded-bl-full -mr-6 -mt-6 transition-transform group-hover:scale-110"></div>
                     <div class="relative z-10 mb-6 h-16 flex items-center">
-                        <!-- ECO ロゴ画像 -->
-                        <div class="w-20 h-20 bg-white rounded-lg flex items-center justify-center overflow-hidden border border-emerald-200">
-                            <img src="eco-danshari-logo.png" alt="ECO DANSHARI LAB Logo" class="w-full h-full object-contain">
+                        <!-- ★ ECO ロゴ画像 -->
+                        <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center overflow-hidden">
+                            <img src="ChatGPT Image 2025年10月15日 09_37_48.png"
+                                 alt="ECO DANSHARI LAB ロゴ"
+                                 class="w-full h-full object-contain">
                         </div>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">ECO DANSHARI LAB</h3>
@@ -297,83 +289,76 @@
                     </p>
                 </div>
 
-                <!-- Service 3: IT Advertising -->
+                <!-- 広告 -->
                 <div class="service-card bg-white p-8 rounded-xl shadow-sm border-t-4 border-slate-200 flex flex-col h-full">
                     <div class="w-14 h-14 bg-pink-100 rounded-lg flex items-center justify-center text-pink-600 mb-6">
                         <i data-lucide="mouse-pointer-2" class="w-7 h-7"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">IT広告事業</h3>
                     <p class="text-slate-600 text-sm leading-relaxed flex-grow">
-                        Google/Yahoo広告、Meta/Instagram/TikTok広告など、多様なプラットフォームに対応。データ分析に基づいた精度の高いターゲティングで、CPAを最適化し、ビジネスの認知拡大と収益向上をブーストさせます。
+                        Google / Meta / TikTok などの広告運用に対応。データ分析に基づいた精度の高いターゲティングで、認知拡大と収益向上をブーストします。
                     </p>
                 </div>
 
-                <!-- Service 4: Real Estate -->
+                <!-- 不動産 -->
                 <div class="service-card bg-white p-8 rounded-xl shadow-sm border-t-4 border-slate-200 flex flex-col h-full">
                     <div class="w-14 h-14 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-600 mb-6">
                         <i data-lucide="building-2" class="w-7 h-7"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">不動産事業</h3>
                     <p class="text-slate-600 text-sm leading-relaxed flex-grow">
-                        全国の提携ブローカーネットワークを活かし、未公開物件や高利回り物件をご提案。売買仲介だけでなく、空き家再生や民泊運用など、資産価値を高めるための多角的なソリューションを提供します。
+                        全国の提携ブローカーと連携し、未公開物件や高利回り物件をご提案。空き家再生や民泊運用など、資産価値を高める多角的なソリューションを提供します。
                     </p>
                 </div>
 
-                <!-- Service 5: Venture Development -->
+                <!-- ベンチャー -->
                 <div class="service-card bg-white p-8 rounded-xl shadow-sm border-t-4 border-slate-200 flex flex-col h-full">
                     <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600 mb-6">
                         <i data-lucide="rocket" class="w-7 h-7"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">ベンチャー開発事業</h3>
                     <p class="text-slate-600 text-sm leading-relaxed flex-grow">
-                        有望なスタートアップ企業への投資・ハンズオン支援を実施。資金提供のみならず、当社の持つAI開発力やマーケティングノウハウを注入し、共同で新規事業を創出します。
+                        有望なスタートアップへの投資・ハンズオン支援。AI開発力やマーケティングノウハウを注入し、共同で新規事業を創出します。
                     </p>
                 </div>
 
-                <!-- Service 6: Financial Media -->
+                <!-- 金融メディア -->
                 <div class="service-card bg-white p-8 rounded-xl shadow-sm border-t-4 border-slate-200 flex flex-col h-full">
                     <div class="w-14 h-14 bg-amber-100 rounded-lg flex items-center justify-center text-amber-600 mb-6">
                         <i data-lucide="line-chart" class="w-7 h-7"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">金融メディア運営</h3>
                     <p class="text-slate-600 text-sm leading-relaxed flex-grow">
-                        FXや株式投資など、金融リテラシーを高めるための情報メディアを運営。市場分析やトレード手法の解説を通じ、個人投資家が激動のマーケットで勝ち抜くための「知恵」と「ツール」を提供します。
+                        FXや株式投資など、金融リテラシーを高める情報メディアを運営。市場分析やトレード手法の解説を通じ、「知恵」と「ツール」を提供します。
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Highlight: AI Development -->
+    <!-- AIセクション -->
     <section id="ai" class="py-24 ai-bg text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-        
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div class="order-1 lg:order-2">
                     <div class="flex items-center gap-4 mb-6">
-                         <div class="w-20 h-20 bg-white/10 rounded-xl flex items-center justify-center backdrop-blur-md border border-white/20">
+                        <div class="w-20 h-20 bg-white/10 rounded-xl flex items-center justify-center backdrop-blur-md border border-white/20">
                             <i data-lucide="brain-circuit" class="w-10 h-10 text-blue-400"></i>
-                         </div>
-                         <div>
-                             <p class="text-blue-400 font-bold tracking-widest uppercase text-sm mb-1">Business Innovation</p>
-                             <h2 class="text-3xl md:text-5xl font-bold">AI Development</h2>
-                         </div>
+                        </div>
+                        <div>
+                            <p class="text-blue-400 font-bold tracking-widest uppercase text-sm mb-1">Business Innovation</p>
+                            <h2 class="text-3xl md:text-5xl font-bold">AI Development</h2>
+                        </div>
                     </div>
-                    
                     <h3 class="text-2xl font-bold mb-6 text-blue-200">ビジネスを加速させる「知能」を実装する。</h3>
-                    
-                    <div class="space-y-6 text-slate-300 leading-relaxed mb-10">
-                        <p>
-                            現代のビジネスにおいて、AIの活用はもはや選択肢ではなく必須事項です。しかし、多くの企業が「導入の仕方がわからない」「効果が見えない」という課題を抱えています。
-                        </p>
-                        <p>
-                            Capital Design HoldingsのAI開発事業は、パッケージを導入して終わりではありません。貴社の業務フローを深く分析し、「どこを自動化すべきか」「どのデータを活用すべきか」をコンサルティングした上で、最適なカスタムAIソリューションを開発・実装します。
-                        </p>
+                    <div class="space-y-6 text-slate-200 leading-relaxed mb-10">
+                        <p>AIの活用はもはや選択肢ではなく必須事項です。しかし、「導入の仕方がわからない」「効果が見えない」という課題を抱える企業は少なくありません。</p>
+                        <p>私たちは、業務フローを分析し「どこを自動化すべきか」「どのデータを活用すべきか」を設計した上で、最適なカスタムAIソリューションを開発・実装します。</p>
                         <ul class="space-y-3 mt-4">
                             <li class="flex items-start gap-3">
                                 <i data-lucide="check-circle" class="w-5 h-5 text-blue-500 mt-1"></i>
-                                <span><strong>生成AI導入:</strong> ChatGPT等を組み込んだ社内ナレッジベース構築</span>
+                                <span><strong>生成AI導入:</strong> 社内ナレッジベースやチャットボット構築</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <i data-lucide="check-circle" class="w-5 h-5 text-blue-500 mt-1"></i>
@@ -381,14 +366,10 @@
                             </li>
                             <li class="flex items-start gap-3">
                                 <i data-lucide="check-circle" class="w-5 h-5 text-blue-500 mt-1"></i>
-                                <span><strong>受託開発:</strong> React/Pythonを用いたモダンなWebアプリ開発</span>
+                                <span><strong>受託開発:</strong> モダンなWebアプリ・SaaSプロダクトの開発</span>
                             </li>
                         </ul>
                     </div>
-
-                    <a href="#contact" class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-10 rounded-full transition-all shadow-lg hover:shadow-blue-500/30 transform hover:-translate-y-1">
-                        AI導入の相談をしてみる
-                    </a>
                 </div>
 
                 <div class="order-2 lg:order-1">
@@ -396,22 +377,22 @@
                         <div class="p-6 bg-slate-900/50 rounded-xl backdrop-blur-md border border-slate-700/50 hover:bg-slate-800/50 transition-all">
                             <i data-lucide="message-square" class="w-10 h-10 text-blue-400 mb-4"></i>
                             <h4 class="text-lg font-bold mb-2 text-white">チャットボット開発</h4>
-                            <p class="text-slate-400 text-sm">社内問い合わせやカスタマーサポートを24時間自動化。人件費削減と満足度向上を両立。</p>
+                            <p class="text-slate-400 text-sm">社内問い合わせやカスタマーサポートを24時間自動化。人件費削減と顧客満足度向上を両立します。</p>
                         </div>
                         <div class="p-6 bg-slate-900/50 rounded-xl backdrop-blur-md border border-slate-700/50 hover:bg-slate-800/50 transition-all">
                             <i data-lucide="code-2" class="w-10 h-10 text-blue-400 mb-4"></i>
                             <h4 class="text-lg font-bold mb-2 text-white">SaaSプロダクト開発</h4>
-                            <p class="text-slate-400 text-sm">新規事業の立ち上げに必要なMVP（Minimum Viable Product）を高速で開発。</p>
+                            <p class="text-slate-400 text-sm">新規事業立ち上げに必要なMVPを高速開発。仮説検証を繰り返しながらプロダクトを磨き上げます。</p>
                         </div>
                         <div class="p-6 bg-slate-900/50 rounded-xl backdrop-blur-md border border-slate-700/50 hover:bg-slate-800/50 transition-all">
                             <i data-lucide="bar-chart-3" class="w-10 h-10 text-blue-400 mb-4"></i>
                             <h4 class="text-lg font-bold mb-2 text-white">データ分析・予測</h4>
-                            <p class="text-slate-400 text-sm">蓄積されたデータをAIが分析。売上予測や需要予測を行い、経営判断をサポート。</p>
+                            <p class="text-slate-400 text-sm">蓄積されたデータをAIが分析。売上・需要予測を行い、精度の高い経営判断を支援します。</p>
                         </div>
                         <div class="p-6 bg-slate-900/50 rounded-xl backdrop-blur-md border border-slate-700/50 hover:bg-slate-800/50 transition-all">
                             <i data-lucide="settings" class="w-10 h-10 text-blue-400 mb-4"></i>
                             <h4 class="text-lg font-bold mb-2 text-white">RPA導入支援</h4>
-                            <p class="text-slate-400 text-sm">定型業務をロボットが代行。人間はよりクリエイティブな業務に集中できます。</p>
+                            <p class="text-slate-400 text-sm">定型業務をロボットが代行。人間はよりクリエイティブな業務に集中できる環境をつくります。</p>
                         </div>
                     </div>
                 </div>
@@ -425,41 +406,25 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div>
                     <div class="flex items-center gap-4 mb-6">
-                         <div class="w-20 h-20 bg-white/10 rounded-xl flex items-center justify-center backdrop-blur-md border border-white/20 overflow-hidden">
-                            <img src="eco-danshari-logo.png" alt="ECO DANSHARI LAB Logo" class="w-full h-full object-contain">
-                         </div>
-                         <div>
-                             <p class="text-emerald-400 font-bold tracking-widest uppercase text-sm mb-1">Renovation & Maintenance</p>
-                             <h2 class="text-3xl md:text-5xl font-bold">ECO DANSHARI LAB</h2>
-                         </div>
-                    </div>
-
-                    <h3 class="text-2xl font-bold mb-6 text-emerald-200">「まだ直せる。」をモットーに、空間を再生する。</h3>
-                    
-                    <div class="space-y-6 text-slate-200 leading-relaxed mb-10">
-                        <p>
-                            大量生産・大量廃棄の時代は終わりを告げました。ECO DANSHARI LABは、既存の資産を最大限に活かし、新たな価値を吹き込むプロフェッショナル集団です。
-                        </p>
-                        <p>
-                            個人宅のエアコンクリーニングから、オフィス・店舗の原状回復、古民家のフルリノベーションまで。確かな技術力と環境への配慮で、心地よい空間づくりと資産価値の向上をお手伝いします。
-                        </p>
-                        <div class="grid grid-cols-2 gap-4 mt-6">
-                            <div class="bg-white/10 p-4 rounded-lg">
-                                <span class="block text-2xl font-bold text-emerald-400 mb-1">Eco</span>
-                                <span class="text-sm">環境負荷を低減する<br>洗剤・工法を採用</span>
-                            </div>
-                            <div class="bg-white/10 p-4 rounded-lg">
-                                <span class="block text-2xl font-bold text-emerald-400 mb-1">Speed</span>
-                                <span class="text-sm">迅速な対応と<br>無駄のない施工</span>
-                            </div>
+                        <div class="w-20 h-20 bg-white/10 rounded-xl flex items-center justify-center backdrop-blur-md border border-white/20 overflow-hidden">
+                            <!-- 再度 ECO ロゴ -->
+                            <img src="ChatGPT Image 2025年10月15日 09_37_48.png"
+                                 alt="ECO DANSHARI LAB ロゴ"
+                                 class="w-full h-full object-contain">
+                        </div>
+                        <div>
+                            <p class="text-emerald-400 font-bold tracking-widest uppercase text-sm mb-1">Renovation & Maintenance</p>
+                            <h2 class="text-3xl md:text-5xl font-bold">ECO DANSHARI LAB</h2>
                         </div>
                     </div>
 
-                    <a href="#contact" class="inline-block bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 px-10 rounded-full transition-all shadow-lg hover:shadow-emerald-500/30 transform hover:-translate-y-1">
-                        ECO DANSHARI LABに相談する
-                    </a>
+                    <h3 class="text-2xl font-bold mb-6 text-emerald-200">「まだ直せる。」をモットーに、空間を再生する。</h3>
+                    <div class="space-y-6 text-slate-200 leading-relaxed mb-10">
+                        <p>大量生産・大量廃棄の時代から、「あるものを活かす」時代へ。ECO DANSHARI LABは既存の資産を最大限活用し、新たな価値を吹き込むプロフェッショナル集団です。</p>
+                        <p>個人宅のエアコンクリーニングから、オフィス・店舗の原状回復、古民家のフルリノベーションまで。技術力と環境配慮で、心地よい空間づくりと資産価値の向上をお手伝いします。</p>
+                    </div>
                 </div>
-                
+
                 <div class="grid grid-cols-1 gap-4">
                     <div class="bg-white/10 backdrop-blur-md border border-white/10 p-6 rounded-xl flex items-center gap-6 group hover:bg-white/20 transition-all">
                         <div class="bg-emerald-500/20 p-4 rounded-full group-hover:bg-emerald-500 group-hover:text-white transition-all text-emerald-300">
@@ -467,7 +432,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-lg mb-1">リフォーム・リノベーション</h4>
-                            <p class="text-sm text-slate-300">クロス張替えから間取り変更まで。ライフスタイルに合わせた空間へ。</p>
+                            <p class="text-sm text-slate-200">クロス張替えから間取り変更まで。ライフスタイルに合わせた空間をご提案。</p>
                         </div>
                     </div>
                     <div class="bg-white/10 backdrop-blur-md border border-white/10 p-6 rounded-xl flex items-center gap-6 group hover:bg-white/20 transition-all">
@@ -476,7 +441,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-lg mb-1">エアコン・ハウスクリーニング</h4>
-                            <p class="text-sm text-slate-300">プロの技術で内部のカビ・汚れを徹底洗浄。省エネ効果も。</p>
+                            <p class="text-sm text-slate-200">内部のカビ・汚れを徹底洗浄し、快適で省エネな空間を実現します。</p>
                         </div>
                     </div>
                     <div class="bg-white/10 backdrop-blur-md border border-white/10 p-6 rounded-xl flex items-center gap-6 group hover:bg-white/20 transition-all">
@@ -485,7 +450,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-lg mb-1">設備メンテナンス・原状回復</h4>
-                            <p class="text-sm text-slate-300">賃貸物件の退去後修繕や、水回りのトラブル対応もお任せください。</p>
+                            <p class="text-sm text-slate-200">賃貸物件の退去後修繕や水回りトラブルなど、スピーディーに対応します。</p>
                         </div>
                     </div>
                 </div>
@@ -493,7 +458,7 @@
         </div>
     </section>
 
-    <!-- Company Profile -->
+    <!-- Company -->
     <section id="company" class="py-24 bg-slate-50">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
@@ -508,6 +473,10 @@
                         <div class="text-slate-600 md:col-span-2 mt-1 md:mt-0">Capital Design Holdings</div>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-3 p-6">
+                        <div class="font-bold text-slate-900 md:col-span-1">代表者</div>
+                        <div class="text-slate-600 md:col-span-2 mt-1 md:mt-0">平石 将大（Masahiro Hiraishi）</div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 p-6">
                         <div class="font-bold text-slate-900 md:col-span-1">事業内容</div>
                         <div class="text-slate-600 md:col-span-2 mt-1 md:mt-0">
                             <ul class="list-disc list-inside space-y-1">
@@ -519,62 +488,70 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 p-6">
-                        <div class="font-bold text-slate-900 md:col-span-1">代表者</div>
-                        <div class="text-slate-600 md:col-span-2 mt-1 md:mt-0">
-                            代表取締役 CEO　平石 将大（Masahiro Hiraishi）
-                        </div>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 p-6">
-                        <div class="font-bold text-slate-900 md:col-span-1">お問い合わせ</div>
-                        <div class="text-slate-600 md:col-span-2 mt-1 md:mt-0">
-                            <a href="mailto:masahiro@capital-design-holdings.com" class="text-blue-600 hover:underline">
-                                masahiro@capital-design-holdings.com
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- Contact -->
     <section id="contact" class="py-24 bg-slate-900 relative overflow-hidden">
-         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2072&q=80')] bg-cover bg-center opacity-10"></div>
-         <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
-             <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">未来を、共に創りませんか？</h2>
-             <p class="text-slate-300 mb-10 text-lg leading-relaxed">
-                 AI導入による業務革新、エコ断捨離による空間再生、あるいは新しいビジネスの共創。<br>
-                 私たちの持つリソースと情熱で、貴社の課題を解決します。<br>
-                 どんな些細なご相談でも、まずはお気軽にお問い合わせください。
-             </p>
-             
-             <div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 max-w-lg mx-auto">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2072&q=80')] bg-cover bg-center opacity-10"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">未来を、共に創りませんか？</h2>
+            <p class="text-slate-300 mb-10 text-lg leading-relaxed">
+                AI導入による業務革新、エコ断捨離による空間再生、新しいビジネスの共創。<br>
+                私たちの持つリソースと情熱で、貴社の課題を解決します。<br>
+                どんな些細なご相談でも、まずはお気軽にお問い合わせください。
+            </p>
+            
+            <div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 max-w-lg mx-auto">
                 <div class="space-y-6">
-                     <a href="mailto:masahiro@capital-design-holdings.com" class="block w-full py-4 px-6 bg-white text-slate-900 rounded-lg font-bold text-lg hover:bg-slate-100 transition-colors shadow-lg">
-                        メールでお問い合わせする
-                     </a>
-                     <p class="text-xs text-slate-300">
-                        対応可能なご相談内容：AI導入・DX支援／広告運用／建設・リフォーム／不動産・投資 等
-                     </p>
+                    <a href="mailto:masahiro@capital-design-holdings.com" class="block w-full py-4 px-6 bg-white text-slate-900 rounded-lg font-bold text-lg hover:bg-slate-100 transition-colors shadow-lg">
+                        メールで問い合わせる
+                    </a>
                 </div>
-             </div>
-         </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-900">
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-                <div class="flex items-center gap-2">
-                    <div class="w-8 h-8 bg-white/10 rounded flex items-center justify-center text-white">
-                        <img src="cdh-logo.png" alt="CDH Logo" class="w-7 h-7 object-contain">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-8 h-8 bg-white/10 rounded flex items-center justify-center text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-xl font-bold text-white tracking-tight">Capital Design Holdings</span>
                     </div>
-                    <span class="text-sm font-semibold text-white tracking-tight">Capital Design Holdings</span>
+                    <p class="text-sm leading-relaxed max-w-sm">
+                        理想のその先へ。<br>
+                        AI開発から建設、金融、不動産まで。<br>
+                        社会に価値を提供する総合ホールディングスカンパニー。
+                    </p>
                 </div>
-                <p class="text-xs text-slate-500">
-                    &copy; 2024 Capital Design Holdings. All rights reserved.
-                </p>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>AI開発事業</li>
+                        <li>ECO DANSHARI LAB</li>
+                        <li>金融メディア運営</li>
+                        <li>不動産事業</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>代表者: 平石 将大</li>
+                        <li>Mail: <a href="mailto:masahiro@capital-design-holdings.com" class="hover:text-white">masahiro@capital-design-holdings.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+                <p>&copy; 2024 Capital Design Holdings. All rights reserved.</p>
             </div>
         </div>
     </footer>
